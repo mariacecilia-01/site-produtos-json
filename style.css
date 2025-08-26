@@ -21,7 +21,7 @@ header{
 
 header img{
     width: auto;
-    height: 80px;
+    height: 100px;
     margin: 35px;
 }
 
@@ -33,7 +33,7 @@ header img{
 
 .busca input {
   width: 48rem;
-  padding: 10px 40px 10px 10px; /* espaço pra lupa no lado direito */
+  padding: 10px 40px 10px 10px;
   font-size: 16px;
   box-sizing: border-box;
   border: 1px solid #ffffff;
@@ -54,7 +54,7 @@ header img{
     display: flex;
     align-items: center;
     color: white;
-    margin-left: 660px;
+    margin-left: 670px;
     padding: 20px;
 }
 
@@ -71,32 +71,43 @@ header img{
     width: auto;
     height: 35px;
     align-items: center;
+    margin-left: 80px;
+    transition: 0.7s;
+}
+
+.icons:hover{
+    transform: scale(1.05);
+
 }
 
 #container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin: 30px;
     text-align: center;
     gap: 2.5rem;
+}
+
+#container div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px gray;
+    transition: 0.5s;
+    height: 620px;
 }
 
 #container div:hover {
     transform: scale(1.05);
 }
 
-#container div{
-    border-radius: 10px;
-    padding: 20px;
-    height: 500px;
-    box-shadow: 5px 5px 20px gray;
-    transition: 0.5s;
-}
-
 #container img{
     width: auto;
     height: 150px;
-    margin: 20px;
+    object-fit: contain;
+    margin: 20px auto;
 }
 
 #container h1{
@@ -117,6 +128,30 @@ header img{
     color: gray;
     font-style: italic;
 }
+
+#container h3{
+    font-size: 24px;
+    color: rgb(226, 1, 12);
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    height: 50px;
+    width: 140px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(243, 2, 54);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
 
 footer{
     text-align: center;
