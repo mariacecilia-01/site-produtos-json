@@ -16,24 +16,24 @@ header{
     background-color: rgb(243, 2, 54);
     display: flex;
     align-items: center;
-    
+    flex-wrap: wrap
 }
 
 header img{
     width: auto;
-    height: 100px;
+    height: 90px;
     margin: 35px;
 }
 
 .busca {
   position: relative;
   width: 100px;
-  margin: 50px;
+  margin: 20px;
 }
 
 .busca input {
   width: 48rem;
-  padding: 10px 40px 10px 10px;
+  padding: 10px 30px 10px 10px;
   font-size: 16px;
   box-sizing: border-box;
   border: 1px solid #ffffff;
@@ -107,6 +107,19 @@ header img{
     transform: scale(1.5);
 }
 
+.local{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    margin-top: -65px;
+}
+
+.local img{
+    width: auto;
+    height: 40px;
+}
 
 
 
