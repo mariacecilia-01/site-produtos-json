@@ -56,6 +56,7 @@ header img{
     color: white;
     margin-left: 670px;
     padding: 20px;
+    transition: 0.5s;
 }
 
 .cadastro img{
@@ -67,18 +68,47 @@ header img{
     font-weight: 600;
 }
 
+.cadastro:hover{
+    transform: scale(1.2);
+}
+
+.icons {
+    display: flex;
+}
+
 .icons img{
     width: auto;
     height: 35px;
     align-items: center;
     margin-left: 80px;
-    transition: 0.7s;
 }
 
-.icons:hover{
-    transform: scale(1.05);
-
+.loja{
+    transition: 0.5s;
 }
+
+.loja:hover{
+    transform: scale(1.5);
+}
+
+.favoritos{
+    transition: 0.5s;
+}
+
+.favoritos:hover{
+    transform: scale(1.5);
+}
+
+.compras{
+    transition: 0.5s;
+}
+
+.compras:hover{
+    transform: scale(1.5);
+}
+
+
+
 
 #container {
     display: grid;
