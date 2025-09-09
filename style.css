@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background-color: rgb(243, 2, 54);
+    background-color:#fdc9da;
     display: flex;
     align-items: center;
     flex-wrap: wrap
@@ -174,7 +174,7 @@ header img{
 
 #container h3{
     font-size: 24px;
-    color: rgb(226, 1, 12);
+    color: #ff387a;
 }
 
 button {
@@ -184,7 +184,7 @@ button {
     width: 140px;
     padding: 10px;
     border-radius: 8px;
-    background-color: rgb(243, 2, 54);
+    background-color:#ff387a;
     color: white;
     border: none;
     cursor: pointer;
